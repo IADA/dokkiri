@@ -15,6 +15,8 @@
 		0594308B1CE6B1B5000BD428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059430891CE6B1B5000BD428 /* LaunchScreen.storyboard */; };
 		059430961CE6B1B5000BD428 /* dokkiriTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 059430951CE6B1B5000BD428 /* dokkiriTests.m */; };
 		059430A11CE6B1B5000BD428 /* dokkiriUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 059430A01CE6B1B5000BD428 /* dokkiriUITests.m */; };
+		059430AF1CE6B367000BD428 /* IMG_3080.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 059430AE1CE6B367000BD428 /* IMG_3080.JPG */; };
+		059430B11CE6B59F000BD428 /* IMG_4549.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 059430B01CE6B59F000BD428 /* IMG_4549.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		0594309C1CE6B1B5000BD428 /* dokkiriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dokkiriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		059430A01CE6B1B5000BD428 /* dokkiriUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dokkiriUITests.m; sourceTree = "<group>"; };
 		059430A21CE6B1B5000BD428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		059430AE1CE6B367000BD428 /* IMG_3080.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_3080.JPG; path = "../../../../Pictures/picture/20131228-0103カンボジア旅行/IMG_3080.JPG"; sourceTree = "<group>"; };
+		059430B01CE6B59F000BD428 /* IMG_4549.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_4549.JPG; path = "../../../../Pictures/picture/20150912-22アメリカ/IMG_4549.JPG"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		0594307A1CE6B1B4000BD428 /* dokkiri */ = {
 			isa = PBXGroup;
 			children = (
+				059430B01CE6B59F000BD428 /* IMG_4549.JPG */,
+				059430AE1CE6B367000BD428 /* IMG_3080.JPG */,
 				0594307E1CE6B1B5000BD428 /* AppDelegate.h */,
 				0594307F1CE6B1B5000BD428 /* AppDelegate.m */,
 				059430811CE6B1B5000BD428 /* ViewController.h */,
@@ -245,6 +251,8 @@
 			files = (
 				0594308B1CE6B1B5000BD428 /* LaunchScreen.storyboard in Resources */,
 				059430881CE6B1B5000BD428 /* Assets.xcassets in Resources */,
+				059430B11CE6B59F000BD428 /* IMG_4549.JPG in Resources */,
+				059430AF1CE6B367000BD428 /* IMG_3080.JPG in Resources */,
 				059430861CE6B1B5000BD428 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

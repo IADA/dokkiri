@@ -13,10 +13,20 @@
 @end
 
 @implementation ViewController
+{
+    __weak IBOutlet UIImageView *image;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    [self performSelector:@selector(change) withObject:nil afterDelay:5.0];
+}
+
+- (void)change {
+    image.image = [ UIImage imageNamed:
+                   @"IMG_4549.JPG"];
 }
 
 - (void)didReceiveMemoryWarning {
